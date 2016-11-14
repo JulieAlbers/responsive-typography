@@ -81,4 +81,9 @@ article ol {
   article p {
     margin-bottom: 1.4em;
   }
+
+  blockquote {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
