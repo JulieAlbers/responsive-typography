@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  margin: 0;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -40,15 +41,15 @@ article header {
   margin-bottom: 1.3em;
 }
 
+article p {
+  margin: 0;
+  margin-bottom: 1.3em;
+}
+
 article header p {
   font-style: italic;
   margin: 0;
   margin-bottom: 1em;
-}
-
-article p {
-  margin: 0;
-  margin-bottom: 1.3em;
 }
 
 article > p:last-child {
@@ -73,6 +74,7 @@ article ol {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -86,4 +88,21 @@ article ol {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  article {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  
 }
