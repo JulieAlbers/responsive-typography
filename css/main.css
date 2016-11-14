@@ -41,15 +41,15 @@ article header {
   margin-bottom: 1.3em;
 }
 
+article p {
+  margin: 0;
+  margin-bottom: 1.3em;
+}
+
 article header p {
   font-style: italic;
   margin: 0;
   margin-bottom: 1em;
-}
-
-article p {
-  margin: 0;
-  margin-bottom: 1.3em;
 }
 
 article > p:last-child {
